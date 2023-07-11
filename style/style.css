@@ -1,0 +1,35 @@
+
+.header {
+  background-color: #e554731a;
+}
+.primary-btn {
+  display: inline-flex;
+  padding: 5px 9px;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: #E55473;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+.banner{
+    display: flex;
+    padding: 30px 30px 0px 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .profile-pic{
+    width: 400px;
+}
+.banner-title{
+    font-size: 80px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 0px;
+}
+.banner-description{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.banner-content{
+    width: 500px;
+}
