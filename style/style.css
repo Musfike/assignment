@@ -165,3 +165,11 @@
   line-height: 20px;
   font-weight: 400;
 }
+/* sms added */
+ /* img container start */
+ .img-container{
+  gap: 24px;
+  display: flex;
+  margin: 48px 240px 128px 320px;
+ }
+ /* img container ends */
