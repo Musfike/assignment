@@ -1,5 +1,5 @@
 /* header starts */
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -27,7 +27,7 @@
 }
 .banner .profile-pic {
   width: 635px;
-  height: 800px;
+  height: 700px;
 }
 .banner-title {
   font-size: 80px;
@@ -73,17 +73,17 @@
 .first-image {
   background-color: #a7216226;
   border-radius: 300px 300px 0px 0px;
-  padding: 110px  78px 0px;
+  padding: 110px 78px 0px;
 }
 .second-image {
   background-color: #0597a026;
   border-radius: 300px 300px 0px 0px;
-  padding: 110px  78px 52px;
+  padding: 110px 78px 52px;
 }
 .third-image {
   background-color: #477d1126;
   border-radius: 300px 300px 0px 0px;
-  padding: 65px  78px 0px;
+  padding: 65px 78px 0px;
 }
 .image-description {
   color: #272727;
@@ -96,3 +96,50 @@
   text-decoration-line: underline;
 }
 /* Hot deals stat */
+.hot-deals {
+  height: 620px;
+  background-color: #e554730d;
+  margin-top: 200px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 128px;
+  display: flex;
+}
+.hd-content {
+  display: flex;
+
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.hd-title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 230px 0px 2px 423px;
+}
+.hd-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: color rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-left: 395px;
+  padding-right: 200px;
+}
+.hd-button {
+}
+.hd-image {
+  width: 318px;
+  height: 420px;
+  padding: 100px 430px 100px 0px;
+}
