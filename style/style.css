@@ -1,7 +1,13 @@
 /* header starts */
+*{
+  margin: 0;
+  padding: 0;
+}
 .header {
   background-color: #e554731a;
   margin-bottom: 0px;
+  margin-top: 0px;
+  width: 100%;
 }
 .primary-btn {
   display: inline-flex;
@@ -17,9 +23,11 @@
   padding: 30px 30px 0px 150px;
   align-items: center;
   justify-content: space-between;
+  margin-top: 0px;
 }
 .banner .profile-pic {
-  width: 400px;
+  width: 635px;
+  height: 800px;
 }
 .banner-title {
   font-size: 80px;
@@ -29,7 +37,7 @@
 }
 .banner-description {
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 .banner-content {
   width: 500px;
@@ -87,3 +95,4 @@
   line-height: 35px;
   text-decoration-line: underline;
 }
+/* Hot deals stat */
