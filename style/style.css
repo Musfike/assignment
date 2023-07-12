@@ -59,7 +59,8 @@
 .Flower-container {
   display: flex;
   justify-content: space-around;
-
+  padding-left: 240px;
+  padding-right: 240px;
 }
 .first-image {
   background-color: #a7216226;
