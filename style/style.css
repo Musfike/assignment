@@ -175,17 +175,40 @@
  }
  /* img container ends */
   
-body {
-
-
-  background-image: url("Flower Asset/Rectangle 9.png");
-  
-  
-  background-repeat: no-repeat;
-  
-  
-  background-size: cover;
-  
-  
-  }
-  
+/* Bonus part starts */
+.bonus{
+  margin: 150px 240px 250px 280px;
+  height: 500px;
+  width: 1500px;
+  background-image: url('bonus.png');
+  /* background-repeat: no-repeat; */
+  background-size: 1525px 500px ;
+}
+.bd{
+  color: #fff;
+}
+.bd-f{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.bd-l{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom:40px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bd-btn{
+   background-color: unset;
+   display: block;
+   margin: 0 auto;
+   font-size: 20px;
+   padding: 20px 30px;
+   border-color: #fff;
+}
+.bonus-text{
+  /* align-items: center; */
+  padding: 100px 400px  ;
+}
+  /* Bonus part ends */
