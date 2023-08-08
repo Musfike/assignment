@@ -180,7 +180,8 @@
 
 /* Bonus part starts */
 .bonus {
-  margin: 150px 240px 150px 280px;
+  margin: 150px auto;
+  margin-bottom: 150px;
   height: 500px;
   width: 1500px;
   background-image: url("bonus.png");
