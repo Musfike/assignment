@@ -1,5 +1,4 @@
-
-    /* header starts */
+/* header starts */
 * {
   margin: 0;
   padding: 0;
@@ -18,6 +17,8 @@
   background-color: #e55473;
   color: #ffffff;
   margin-top: 10px;
+  border-color: unset;
+  box-shadow: none;
 }
 .banner {
   display: flex;
@@ -136,10 +137,12 @@
   margin-left: 603px;
   margin-top: 22px;
   padding: 20px 43px;
-  border-radius: 5px;
+  border-radius: 8px;
   display: inline-flex;
   align-items: flex-start;
   gap: 10px;
+  border-color: unset;
+  box-shadow: none;
 }
 .hd-image {
   width: 318px;
@@ -167,48 +170,100 @@
   font-weight: 400;
 }
 /* sms added */
- /* img container start */
- .img-container{
+/* img container start */
+.img-container {
   gap: 24px;
   display: flex;
   margin: 48px 240px 128px 320px;
- }
- /* img container ends */
-  
+}
+/* img container ends */
+
 /* Bonus part starts */
-.bonus{
-  margin: 150px 240px 250px 280px;
+.bonus {
+  margin: 150px 240px 150px 280px;
   height: 500px;
   width: 1500px;
-  background-image: url('bonus.png');
+  background-image: url("bonus.png");
   /* background-repeat: no-repeat; */
-  background-size: 1525px 500px ;
+  background-size: 1525px 500px;
 }
-.bd{
+.bd {
   color: #fff;
 }
-.bd-f{
-    text-align: center;
-    font-size: 60px;
-    padding-top: 30px;
-    padding-bottom: 15px;
+.bd-f {
+  text-align: center;
+  font-size: 60px;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
-.bd-l{
-    text-align: center;
-    font-size: 40px;
-    padding-bottom:40px ;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.bd-l {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.bd-btn{
-   background-color: unset;
-   display: block;
-   margin: 0 auto;
-   font-size: 20px;
-   padding: 20px 30px;
-   border-color: #fff;
+.bd-btn {
+  background-color: unset;
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 20px 30px;
+  border-color: #fff;
 }
-.bonus-text{
-  /* align-items: center; */
-  padding: 100px 400px  ;
+.bonus-text {
+  padding: 100px 400px;
 }
-  /* Bonus part ends */
+/* Bonus part ends */
+
+/* Get The Latest Deals start  */
+.last-section {
+  margin: 0px auto;
+  height: 445px;
+  width: 1440px;
+  background-image: url("main.png");
+  margin-bottom: 130px;
+}
+.lst {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 122px 534px 16px;
+}
+.lsd {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0px 605px 48px;
+}
+.text {
+  display: flex;
+  padding: 0px 290px 120px 290px;
+  gap: 15px;
+}
+#E-mail {
+  height: 60px;
+  width: 700px;
+  color: rgba(39, 39, 39, 0.6);
+  /* text-align: center; */
+  font-family: Lato;
+  font-size: 16px;
+  border: none;
+  /* padding-right: 15px; */
+}
+
+.lsbtn {
+  width: 150px;
+  height: 64px;
+  border-radius: 8px;
+  background: #e55473;
+  border: none ;
+}
+.ls-span {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+   /* Get The Latest Deals end */
